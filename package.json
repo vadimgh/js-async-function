@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -q --exec \"npm run clear && node\" index.js",
+    "clear": "clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "nodemon": "^3.1.0",
+    "onchange": "^7.1.0"
+  }
+}
